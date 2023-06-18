@@ -1,0 +1,29 @@
+.main{
+    background-color: rgb(147, 111, 63);
+    height: 250px;
+    width: 330px;
+    padding: 50px;
+    margin-left: 350px;
+ 
+   margin-top: 50px;
+}
+
+p{
+    margin-left: 140px;
+   
+}
+h1{
+  margin-left: 90px;
+  color: white;
+}
+body{
+    background-color: rgb(41, 47, 60);
+}
+@media screen  and( max-width :579){
+    body{
+        background-color: blue;
+    }
+    .main{
+        width: 10%;
+    }
+}
